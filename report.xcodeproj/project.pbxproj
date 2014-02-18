@@ -21,6 +21,7 @@
 		CCE686A3188E4D0E00DB9D27 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCE68685188E4D0D00DB9D27 /* UIKit.framework */; };
 		CCE686AB188E4D0E00DB9D27 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCE686A9188E4D0E00DB9D27 /* InfoPlist.strings */; };
 		CCE686AD188E4D0E00DB9D27 /* reportTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE686AC188E4D0E00DB9D27 /* reportTests.m */; };
+		CCE686B8188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE686B7188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CCE686A8188E4D0E00DB9D27 /* reportTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "reportTests-Info.plist"; sourceTree = "<group>"; };
 		CCE686AA188E4D0E00DB9D27 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCE686AC188E4D0E00DB9D27 /* reportTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = reportTests.m; sourceTree = "<group>"; };
+		CCE686B6188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NdUncaughtExceptionHandler.h; sourceTree = "<group>"; };
+		CCE686B7188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NdUncaughtExceptionHandler.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 		CCE68687188E4D0D00DB9D27 /* report */ = {
 			isa = PBXGroup;
 			children = (
+				CCE686B6188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.h */,
+				CCE686B7188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.m */,
 				CCE68690188E4D0D00DB9D27 /* AppDelegate.h */,
 				CCE68691188E4D0D00DB9D27 /* AppDelegate.m */,
 				CCE68693188E4D0D00DB9D27 /* Main.storyboard */,
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCE68698188E4D0D00DB9D27 /* ViewController.m in Sources */,
+				CCE686B8188E4D4B00DB9D27 /* NdUncaughtExceptionHandler.m in Sources */,
 				CCE68692188E4D0D00DB9D27 /* AppDelegate.m in Sources */,
 				CCE6868E188E4D0D00DB9D27 /* main.m in Sources */,
 			);
